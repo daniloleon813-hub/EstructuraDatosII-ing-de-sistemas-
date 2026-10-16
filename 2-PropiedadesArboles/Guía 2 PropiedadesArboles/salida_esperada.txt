@@ -1,0 +1,66 @@
+=== ÁRBOL UNIVERSITARIO ===
+└── Universidad
+   └── Facultad de Ingeniería
+      └── Ingeniería de Sistemas
+         └── Semillero IA
+         └── Semillero Datos
+      └── Ingeniería de Software
+         └── Laboratorio Móvil
+      └── Ingeniería Industrial
+   └── Ciencias Administrativas
+      └── Administración
+      └── Contaduría
+   └── Bienestar Universitario
+      └── Deportes
+      └── Cultura
+
+=== PROPIEDADES DEL ÁRBOL ===
+Raíz: Universidad
+Número total de nodos: 14
+Número de hojas: 8
+Grado del árbol: 3
+Altura del árbol: 3
+Número de niveles: 4
+
+=== PROFUNDIDAD DE CINCO NODOS ===
+Facultad de Ingeniería       -> 1
+Ingeniería de Sistemas       -> 2
+Semillero IA                 -> 3
+Administración               -> 2
+Cultura                      -> 2
+
+=== GRADO DE ALGUNOS NODOS ===
+Universidad                  -> 3
+Facultad de Ingeniería       -> 3
+Ingeniería de Sistemas       -> 2
+Ingeniería de Software       -> 1
+Semillero IA                 -> 0
+
+=== TABLA DE MÉTRICAS ===
+Nodo                         Grado    Nivel    Profundidad  Altura  
+--------------------------------------------------------------------
+Universidad                  3        0        0            3       
+Facultad de Ingeniería       3        1        1            2       
+Ingeniería de Sistemas       2        2        2            1       
+Semillero IA                 0        3        3            0       
+Semillero Datos              0        3        3            0       
+Ingeniería de Software       1        2        2            1       
+Laboratorio Móvil            0        3        3            0       
+Ingeniería Industrial        0        2        2            0       
+Ciencias Administrativas     2        1        1            1       
+Administración               0        2        2            0       
+Contaduría                   0        2        2            0       
+Bienestar Universitario      2        1        1            1       
+Deportes                     0        2        2            0       
+Cultura                      0        2        2            0       
+
+=== CAMINOS ===
+Universidad -> Facultad de Ingeniería -> Ingeniería de Sistemas -> Semillero Datos
+Longitud: 3 aristas
+Universidad -> Ciencias Administrativas -> Contaduría
+Longitud: 2 aristas
+
+=== COMPARACIÓN ===
+Altura calculada manualmente: 3
+Altura calculada por Java: 3
+Resultado: COINCIDEN.

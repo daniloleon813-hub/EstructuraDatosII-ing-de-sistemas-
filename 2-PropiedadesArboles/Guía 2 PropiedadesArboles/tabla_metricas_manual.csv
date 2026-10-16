@@ -1,0 +1,15 @@
+﻿Nodo,Grado,Nivel,Profundidad,Altura,Tipo
+Universidad,3,0,0,3,Raíz / Interno
+Facultad de Ingeniería,3,1,1,2,Interno
+Ingeniería de Sistemas,2,2,2,1,Interno
+Semillero IA,0,3,3,0,Hoja
+Semillero Datos,0,3,3,0,Hoja
+Ingeniería de Software,1,2,2,1,Interno
+Laboratorio Móvil,0,3,3,0,Hoja
+Ingeniería Industrial,0,2,2,0,Hoja
+Ciencias Administrativas,2,1,1,1,Interno
+Administración,0,2,2,0,Hoja
+Contaduría,0,2,2,0,Hoja
+Bienestar Universitario,2,1,1,1,Interno
+Deportes,0,2,2,0,Hoja
+Cultura,0,2,2,0,Hoja
